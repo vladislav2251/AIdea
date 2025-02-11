@@ -1,0 +1,1 @@
+export { default as ParticlesBackground } from './particleBg.vue'

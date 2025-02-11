@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', 'nuxt-lucide-icons'],
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -24,7 +24,10 @@ export default defineNuxtConfig({
     },
     }
   },
-  css: ['~/assets/styles/base.scss']
+  lucide: {
+    namePrefix: 'Icon'
+  },
+  css: ['~/assets/styles/base.scss'],
   
 })
 
