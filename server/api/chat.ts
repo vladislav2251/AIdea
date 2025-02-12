@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            model: "deepseek/deepseek-r1:free",
+            model: "deepseek/deepseek-r1-distill-llama-70b:free",
             messages: [{ role: "user", content: body.text }],
         }),
     });
