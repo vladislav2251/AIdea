@@ -43,7 +43,7 @@ const components: IProps[] = [
                 <div class="grid grid-cols-2 lg:grid-cols-3">
                     <div class="flex items-center max-lg:hidden">
                         <NuxtLink to="/" title="Navigation Home" class="flex">
-                            <img src="@/public/logo.png" alt="Logo Icon" class="w-7 h-7">
+                            <img src="@/public/logo.svg" alt="Logo Icon" class="w-7 h-7">
                             <span class="ml-3 self-center font-bold">AIdea</span>
                         </NuxtLink>
                     </div>
@@ -59,7 +59,7 @@ const components: IProps[] = [
                                                     class="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                                                     href="/"
                                                 >
-                                                    <img src="@/public/logo.png" class="h-6 w-6">
+                                                    <img src="@/public/logo.svg" class="h-6 w-6">
                                                     <div class="mb-2 mt-4 text-lg font-medium">
                                                         AIdea
                                                     </div>

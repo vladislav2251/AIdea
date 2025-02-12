@@ -1,10 +1,10 @@
 <template>
     <div
-        class="relative flex w-full h-screen flex-col items-center justify-center overflow-hidden bg-background md:shadow-xl"
+        class="flex relative w-full h-screen flex-col items-center justify-center overflow-hidden bg-background md:shadow-xl"
     >
         <Container>
             <ClientOnly>
-                <div class="flex h-[15rem] flex-col items-center px-4">
+                <div class="flex flex-col items-center px-4 mb-10">
                     <h2 class="mb-4 text-center text-xl text-black sm:mb-20 sm:text-5xl dark:text-white">
                         Pen your thougths
                     </h2>
@@ -14,11 +14,9 @@
                     />
                 </div>
             </ClientOnly>
-            <textarea
-                class="relative flex h-[500px] focus:border-none z-50 w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
-            >
-                
-            </textarea>
+            <div class="grid relative w-full gap-1.5 z-10">
+                <Textarea id="message" placeholder="Your output message." />
+            </div>
         </Container>
         <ParticlesBackground
             class="absolute inset-0"

@@ -1,7 +1,7 @@
 <template>
-    <Input />
+    <Hero />
 </template>
 <script setup lang="ts">
-    import Input from './components/input.vue';
+    import Hero from './components/hero.vue';
 </script>
 

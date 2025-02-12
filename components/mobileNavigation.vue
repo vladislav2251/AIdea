@@ -42,7 +42,7 @@ const accordionItems = [
                 <SheetHeader class="text-start">
                     <SheetTrigger as-child>
                         <NuxtLink to="/" class="text-lg font-semibold text-foreground">
-                            <img width="28" height="31" src="public/logo.png" alt="Logo Icon">
+                            <img width="28" height="31" src="public/logo.svg" alt="Logo Icon">
                         </NuxtLink>
                     </SheetTrigger>
                 </SheetHeader>
