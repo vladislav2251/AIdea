@@ -28,6 +28,10 @@ export default defineNuxtConfig({
     namePrefix: 'Icon'
   },
   css: ['~/assets/styles/base.scss'],
-  
+  runtimeConfig: {
+    public: {
+      openRouterApiKey: process.env.OPENROUTER_API_KEY,
+    },
+  },
 })
 
