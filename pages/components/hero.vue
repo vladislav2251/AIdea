@@ -11,9 +11,9 @@
             </ClientOnly>
             <div class="grid relative w-full gap-1.5 z-10">
                 <Textarea id="output" v-model="response" placeholder="Your output message." />
-                <button @click="sendMessage" :disabled="loading" class="border px-4 py-2 mt-2">
+                <InteractiveButton @click="sendMessage" :disabled="loading" class="border px-4 py-2 mt-2">
                     {{ loading ? "Thinking..." : "Generate" }}
-                </button>
+                </InteractiveButton>
             </div>
         </Container>
         <ParticlesBackground
@@ -29,6 +29,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import InteractiveButton from '~/components/ui/interactive-button/interactiveButton.vue';
 
 const placeholders = [
     "AI-generated startup concepts",
