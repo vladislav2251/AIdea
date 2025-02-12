@@ -32,11 +32,11 @@ import { ref, computed } from 'vue';
 import InteractiveButton from '~/components/ui/interactive-button/interactiveButton.vue';
 
 const placeholders = [
-    "AI-generated startup concepts",
-    "Innovative marketing campaign ideas",
-    "Creative project suggestions powered by AI",
-    "AI-driven business model proposals",
-    "AI-enhanced product development strategies",
+    "Why is my code always broken?",
+    "What does 'undefined' even mean?",
+    "How to center a div (for real this time)",
+    "Am I smarter than a compiler?",
+    "Do loops ever get dizzy?",
 ];
 
 const text = ref("");
