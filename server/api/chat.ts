@@ -11,7 +11,11 @@ export default defineEventHandler(async (event) => {
         body: JSON.stringify({
             model: "deepseek/deepseek-r1-distill-llama-70b:free",
             messages: [{ role: "user", content: body.text }],
+            "top_p": 1,
+            "temperature": 1,
+            "repetition_penalty": 1
         }),
+        
     });
 
     if (!res.ok) {
