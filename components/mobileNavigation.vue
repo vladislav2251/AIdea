@@ -12,21 +12,21 @@ const accordionItems = [
         value: 'item-1',
         title: 'Contact',
         content: [
-            {
-                title: 'GitHub',
-                description: 'Check out my latest code and projects.',
-                href: 'https://github.com/your-username',
-            },
-            {
-                title: 'LinkedIn',
-                description: 'Connect with me professionally.',
-                href: 'https://www.linkedin.com/in/your-username',
-            },
-            {
-                title: 'Portfolio',
-                description: 'Explore my work and designs.',
-                href: 'https://your-portfolio-url.com',
-            },
+        {
+            title: 'GitHub',
+            description: 'Check out my latest code and projects.',
+            href: 'https://github.com/vladislav2251',
+        },
+        {
+            title: 'LinkedIn',
+            description: 'Connect with me professionally.',
+            href: 'https://www.linkedin.com/in/vlad-didyk-2842a8269/',
+        },
+        {
+            title: 'Portfolio',
+            description: 'Explore my work and designs.',
+            href: 'https://vladdidyk.vercel.app',
+        },
         ],
     },
 ];
