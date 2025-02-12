@@ -22,17 +22,17 @@ const components: IProps[] = [
     {
         title: 'GitHub',
         description: 'Check out my latest code and projects.',
-        href: 'https://github.com/your-username',
+        href: 'https://github.com/vladislav2251',
     },
     {
         title: 'LinkedIn',
         description: 'Connect with me professionally.',
-        href: 'https://www.linkedin.com/in/your-username',
+        href: 'https://www.linkedin.com/in/vlad-didyk-2842a8269/',
     },
     {
         title: 'Portfolio',
         description: 'Explore my work and designs.',
-        href: 'https://your-portfolio-url.com',
+        href: 'https://vladdidyk.vercel.app',
     },
 ];
 </script>
