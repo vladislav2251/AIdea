@@ -16,9 +16,7 @@
             >
                 <Textarea class="border-0 outline-none" id="output" v-model="response" placeholder="Your output message." />
             </GlowBorder>
-            <InteractiveButton @click="sendMessage" :disabled="loading" class="border px-4 py-2 mt-2">
-                {{ loading ? "Thinking..." : "Generate" }}
-            </InteractiveButton>
+            <InteractiveButton @click="sendMessage" :disabled="loading" class="border px-4 py-2 mt-2" />
             </div>
         </Container>
         <ParticlesBackground
