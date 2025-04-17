@@ -10,15 +10,10 @@
                 </div>
             </ClientOnly>
             <div class="grid relative w-full gap-1.5 z-10">
-            <GlowBorder
-                    class="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
-                    :color="['#A07CFE', '#FE8FB5', '#FFBE7B']"
-            >
-                <Textarea class="border-0 outline-none" id="output" v-model="response" placeholder="Your output message." />
-            </GlowBorder>
-            <InteractiveButton @click="sendMessage" :disabled="loading" class="border px-4 py-2 mt-2">
-                {{ loading ? "Thinking..." : "Generate" }}
-            </InteractiveButton>
+                <Textarea id="output" v-model="response" placeholder="Your output message." />
+                <InteractiveButton @click="sendMessage" :disabled="loading" class="border px-4 py-2 mt-2">
+                    {{ loading ? "Thinking..." : "Generate" }}
+                </InteractiveButton>
             </div>
         </Container>
         <ParticlesBackground
@@ -35,7 +30,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import InteractiveButton from '~/components/ui/interactive-button/interactiveButton.vue';
-import GlowBorder from '~/components/ui/border/glowBorder.vue';
+
 const placeholders = [
     "Why is my code always broken?",
     "What does 'undefined' even mean?",
