@@ -3,7 +3,7 @@
     :style="parentStyles"
     :class="
       cn(
-        'relative grid h-11 min-h-[30px] w-fit min-w-[100px] place-items-center rounded-[--border-radius] bg-white text-black dark:bg-black dark:text-white glow-border',
+        'relative grid min-h-[60px] w-fit min-w-[300px] place-items-center rounded-[--border-radius] bg-white text-black dark:bg-black dark:text-white glow-border',
         $props.class,
       )
     "
