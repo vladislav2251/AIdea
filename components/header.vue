@@ -32,7 +32,7 @@ const components: IProps[] = [
     {
         title: 'Portfolio',
         description: 'Explore my work and designs.',
-        href: 'https://vladdidyk.vercel.app',
+        href: 'https://vladislav-didyk.vercel.app',
     },
 ];
 </script>

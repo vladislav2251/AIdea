@@ -17,7 +17,7 @@ const developers = ref<Developer[]>([
         name: 'Vlad Didyk',
         username: 'vladislav2251',
         bio: 'Front-end Web Developer | Vue | Svelte | NodeJS | TypeScript | JavaScript',
-        website: 'https://vladdidyk.vercel.app',
+        website: 'https://vladislav-didyk.vercel.app',
         linkedin: 'https://www.linkedin.com/in/vlad-didyk-2842a8269/',
         github: 'https://github.com/vladislav2251',
     },
